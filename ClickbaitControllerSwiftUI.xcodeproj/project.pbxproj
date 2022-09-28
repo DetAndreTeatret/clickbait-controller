@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F444381A28E4B47A0037D019 /* ClickbaitControllerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444381928E4B47A0037D019 /* ClickbaitControllerSwiftUIApp.swift */; };
+		F444381C28E4B47A0037D019 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444381B28E4B47A0037D019 /* ContentView.swift */; };
+		F444381E28E4B47D0037D019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F444381D28E4B47D0037D019 /* Assets.xcassets */; };
+		F444382128E4B47D0037D019 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F444382028E4B47D0037D019 /* Preview Assets.xcassets */; };
+		F444382C28E4B47D0037D019 /* ClickbaitControllerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444382B28E4B47D0037D019 /* ClickbaitControllerSwiftUITests.swift */; };
+		F444383728E4B47D0037D019 /* ClickbaitControllerSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444383628E4B47D0037D019 /* ClickbaitControllerSwiftUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F444382828E4B47D0037D019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F444380E28E4B47A0037D019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F444381528E4B47A0037D019;
+			remoteInfo = ClickbaitControllerSwiftUI;
+		};
+		F444383328E4B47D0037D019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F444380E28E4B47A0037D019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F444381528E4B47A0037D019;
+			remoteInfo = ClickbaitControllerSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F444381628E4B47A0037D019 /* ClickbaitControllerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickbaitControllerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F444381928E4B47A0037D019 /* ClickbaitControllerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickbaitControllerSwiftUIApp.swift; sourceTree = "<group>"; };
+		F444381B28E4B47A0037D019 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F444381D28E4B47D0037D019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F444382028E4B47D0037D019 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F444382228E4B47D0037D019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F444382728E4B47D0037D019 /* ClickbaitControllerSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickbaitControllerSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F444382B28E4B47D0037D019 /* ClickbaitControllerSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickbaitControllerSwiftUITests.swift; sourceTree = "<group>"; };
+		F444382D28E4B47D0037D019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F444383228E4B47D0037D019 /* ClickbaitControllerSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickbaitControllerSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F444383628E4B47D0037D019 /* ClickbaitControllerSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickbaitControllerSwiftUIUITests.swift; sourceTree = "<group>"; };
+		F444383828E4B47D0037D019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F444381328E4B47A0037D019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F444382428E4B47D0037D019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F444382F28E4B47D0037D019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F444380D28E4B47A0037D019 = {
+			isa = PBXGroup;
+			children = (
+				F444381828E4B47A0037D019 /* ClickbaitControllerSwiftUI */,
+				F444382A28E4B47D0037D019 /* ClickbaitControllerSwiftUITests */,
+				F444383528E4B47D0037D019 /* ClickbaitControllerSwiftUIUITests */,
+				F444381728E4B47A0037D019 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F444381728E4B47A0037D019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F444381628E4B47A0037D019 /* ClickbaitControllerSwiftUI.app */,
+				F444382728E4B47D0037D019 /* ClickbaitControllerSwiftUITests.xctest */,
+				F444383228E4B47D0037D019 /* ClickbaitControllerSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F444381828E4B47A0037D019 /* ClickbaitControllerSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				F444381928E4B47A0037D019 /* ClickbaitControllerSwiftUIApp.swift */,
+				F444381B28E4B47A0037D019 /* ContentView.swift */,
+				F444381D28E4B47D0037D019 /* Assets.xcassets */,
+				F444382228E4B47D0037D019 /* Info.plist */,
+				F444381F28E4B47D0037D019 /* Preview Content */,
+			);
+			path = ClickbaitControllerSwiftUI;
+			sourceTree = "<group>";
+		};
+		F444381F28E4B47D0037D019 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F444382028E4B47D0037D019 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F444382A28E4B47D0037D019 /* ClickbaitControllerSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F444382B28E4B47D0037D019 /* ClickbaitControllerSwiftUITests.swift */,
+				F444382D28E4B47D0037D019 /* Info.plist */,
+			);
+			path = ClickbaitControllerSwiftUITests;
+			sourceTree = "<group>";
+		};
+		F444383528E4B47D0037D019 /* ClickbaitControllerSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F444383628E4B47D0037D019 /* ClickbaitControllerSwiftUIUITests.swift */,
+				F444383828E4B47D0037D019 /* Info.plist */,
+			);
+			path = ClickbaitControllerSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F444381528E4B47A0037D019 /* ClickbaitControllerSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F444383B28E4B47D0037D019 /* Build configuration list for PBXNativeTarget "ClickbaitControllerSwiftUI" */;
+			buildPhases = (
+				F444381228E4B47A0037D019 /* Sources */,
+				F444381328E4B47A0037D019 /* Frameworks */,
+				F444381428E4B47A0037D019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickbaitControllerSwiftUI;
+			productName = ClickbaitControllerSwiftUI;
+			productReference = F444381628E4B47A0037D019 /* ClickbaitControllerSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F444382628E4B47D0037D019 /* ClickbaitControllerSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F444383E28E4B47D0037D019 /* Build configuration list for PBXNativeTarget "ClickbaitControllerSwiftUITests" */;
+			buildPhases = (
+				F444382328E4B47D0037D019 /* Sources */,
+				F444382428E4B47D0037D019 /* Frameworks */,
+				F444382528E4B47D0037D019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F444382928E4B47D0037D019 /* PBXTargetDependency */,
+			);
+			name = ClickbaitControllerSwiftUITests;
+			productName = ClickbaitControllerSwiftUITests;
+			productReference = F444382728E4B47D0037D019 /* ClickbaitControllerSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F444383128E4B47D0037D019 /* ClickbaitControllerSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F444384128E4B47D0037D019 /* Build configuration list for PBXNativeTarget "ClickbaitControllerSwiftUIUITests" */;
+			buildPhases = (
+				F444382E28E4B47D0037D019 /* Sources */,
+				F444382F28E4B47D0037D019 /* Frameworks */,
+				F444383028E4B47D0037D019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F444383428E4B47D0037D019 /* PBXTargetDependency */,
+			);
+			name = ClickbaitControllerSwiftUIUITests;
+			productName = ClickbaitControllerSwiftUIUITests;
+			productReference = F444383228E4B47D0037D019 /* ClickbaitControllerSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F444380E28E4B47A0037D019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F444381528E4B47A0037D019 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					F444382628E4B47D0037D019 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F444381528E4B47A0037D019;
+					};
+					F444383128E4B47D0037D019 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F444381528E4B47A0037D019;
+					};
+				};
+			};
+			buildConfigurationList = F444381128E4B47A0037D019 /* Build configuration list for PBXProject "ClickbaitControllerSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F444380D28E4B47A0037D019;
+			productRefGroup = F444381728E4B47A0037D019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F444381528E4B47A0037D019 /* ClickbaitControllerSwiftUI */,
+				F444382628E4B47D0037D019 /* ClickbaitControllerSwiftUITests */,
+				F444383128E4B47D0037D019 /* ClickbaitControllerSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F444381428E4B47A0037D019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F444382128E4B47D0037D019 /* Preview Assets.xcassets in Resources */,
+				F444381E28E4B47D0037D019 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F444382528E4B47D0037D019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F444383028E4B47D0037D019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F444381228E4B47A0037D019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F444381C28E4B47A0037D019 /* ContentView.swift in Sources */,
+				F444381A28E4B47A0037D019 /* ClickbaitControllerSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F444382328E4B47D0037D019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F444382C28E4B47D0037D019 /* ClickbaitControllerSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F444382E28E4B47D0037D019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F444383728E4B47D0037D019 /* ClickbaitControllerSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F444382928E4B47D0037D019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F444381528E4B47A0037D019 /* ClickbaitControllerSwiftUI */;
+			targetProxy = F444382828E4B47D0037D019 /* PBXContainerItemProxy */;
+		};
+		F444383428E4B47D0037D019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F444381528E4B47A0037D019 /* ClickbaitControllerSwiftUI */;
+			targetProxy = F444383328E4B47D0037D019 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F444383928E4B47D0037D019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F444383A28E4B47D0037D019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F444383C28E4B47D0037D019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ClickbaitControllerSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ClickbaitControllerSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = no.detandreteatret.ClickbaitControllerSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F444383D28E4B47D0037D019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ClickbaitControllerSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ClickbaitControllerSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = no.detandreteatret.ClickbaitControllerSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F444383F28E4B47D0037D019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClickbaitControllerSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = no.detandreteatret.ClickbaitControllerSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickbaitControllerSwiftUI.app/ClickbaitControllerSwiftUI";
+			};
+			name = Debug;
+		};
+		F444384028E4B47D0037D019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClickbaitControllerSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = no.detandreteatret.ClickbaitControllerSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickbaitControllerSwiftUI.app/ClickbaitControllerSwiftUI";
+			};
+			name = Release;
+		};
+		F444384228E4B47D0037D019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClickbaitControllerSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = no.detandreteatret.ClickbaitControllerSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClickbaitControllerSwiftUI;
+			};
+			name = Debug;
+		};
+		F444384328E4B47D0037D019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClickbaitControllerSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = no.detandreteatret.ClickbaitControllerSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClickbaitControllerSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F444381128E4B47A0037D019 /* Build configuration list for PBXProject "ClickbaitControllerSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F444383928E4B47D0037D019 /* Debug */,
+				F444383A28E4B47D0037D019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F444383B28E4B47D0037D019 /* Build configuration list for PBXNativeTarget "ClickbaitControllerSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F444383C28E4B47D0037D019 /* Debug */,
+				F444383D28E4B47D0037D019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F444383E28E4B47D0037D019 /* Build configuration list for PBXNativeTarget "ClickbaitControllerSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F444383F28E4B47D0037D019 /* Debug */,
+				F444384028E4B47D0037D019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F444384128E4B47D0037D019 /* Build configuration list for PBXNativeTarget "ClickbaitControllerSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F444384228E4B47D0037D019 /* Debug */,
+				F444384328E4B47D0037D019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F444380E28E4B47A0037D019 /* Project object */;
+}
