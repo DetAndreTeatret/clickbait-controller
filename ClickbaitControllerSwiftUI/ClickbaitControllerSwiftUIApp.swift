@@ -11,7 +11,7 @@ import SwiftUI
 struct ClickbaitControllerSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LandingPageContent()
         }
     }
 }

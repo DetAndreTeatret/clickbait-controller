@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F414FF3C28EDDB9900FAA0E9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414FF3B28EDDB9900FAA0E9 /* SettingsView.swift */; };
 		F444381A28E4B47A0037D019 /* ClickbaitControllerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444381928E4B47A0037D019 /* ClickbaitControllerSwiftUIApp.swift */; };
 		F444381C28E4B47A0037D019 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444381B28E4B47A0037D019 /* ContentView.swift */; };
 		F444381E28E4B47D0037D019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F444381D28E4B47D0037D019 /* Assets.xcassets */; };
 		F444382128E4B47D0037D019 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F444382028E4B47D0037D019 /* Preview Assets.xcassets */; };
 		F444382C28E4B47D0037D019 /* ClickbaitControllerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444382B28E4B47D0037D019 /* ClickbaitControllerSwiftUITests.swift */; };
 		F444383728E4B47D0037D019 /* ClickbaitControllerSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444383628E4B47D0037D019 /* ClickbaitControllerSwiftUIUITests.swift */; };
+		F444384528E87B420037D019 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444384428E87B420037D019 /* ImagePicker.swift */; };
+		F444384728E9F9AA0037D019 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444384628E9F9AA0037D019 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F414FF3B28EDDB9900FAA0E9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F444381628E4B47A0037D019 /* ClickbaitControllerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickbaitControllerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F444381928E4B47A0037D019 /* ClickbaitControllerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickbaitControllerSwiftUIApp.swift; sourceTree = "<group>"; };
 		F444381B28E4B47A0037D019 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +49,8 @@
 		F444383228E4B47D0037D019 /* ClickbaitControllerSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickbaitControllerSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F444383628E4B47D0037D019 /* ClickbaitControllerSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickbaitControllerSwiftUIUITests.swift; sourceTree = "<group>"; };
 		F444383828E4B47D0037D019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F444384428E87B420037D019 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F444384628E9F9AA0037D019 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				F444381D28E4B47D0037D019 /* Assets.xcassets */,
 				F444382228E4B47D0037D019 /* Info.plist */,
 				F444381F28E4B47D0037D019 /* Preview Content */,
+				F444384428E87B420037D019 /* ImagePicker.swift */,
+				F444384628E9F9AA0037D019 /* Data.swift */,
+				F414FF3B28EDDB9900FAA0E9 /* SettingsView.swift */,
 			);
 			path = ClickbaitControllerSwiftUI;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F414FF3C28EDDB9900FAA0E9 /* SettingsView.swift in Sources */,
+				F444384528E87B420037D019 /* ImagePicker.swift in Sources */,
 				F444381C28E4B47A0037D019 /* ContentView.swift in Sources */,
 				F444381A28E4B47A0037D019 /* ClickbaitControllerSwiftUIApp.swift in Sources */,
+				F444384728E9F9AA0037D019 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +431,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ClickbaitControllerSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 5L83XT85J5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ClickbaitControllerSwiftUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -426,7 +439,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = no.detandreteatret.ClickbaitControllerSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = no.detandreteatret.ClickbaitController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -440,6 +453,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ClickbaitControllerSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 5L83XT85J5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ClickbaitControllerSwiftUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -447,7 +461,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = no.detandreteatret.ClickbaitControllerSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = no.detandreteatret.ClickbaitController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
