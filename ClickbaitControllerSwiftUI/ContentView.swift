@@ -47,8 +47,6 @@ struct PreShowView: View {
                 .foregroundColor(.white)
             
             Button("Reset/Klar for show") {
-                //Si til server at alle bilder skal slettes
-                //Burde be om bekreftelse først
                 showingAlert = true
             }.padding()
                 .background(Color.orange)
@@ -58,7 +56,6 @@ struct PreShowView: View {
                           message: Text("Sikker?"),
                           primaryButton: .destructive(Text("Ja, jeg vil slette alle bildene"), action: {
                             deleteImagesRequest(settings: settings)
-                            print("didit")
                             }),
                           secondaryButton: .default(Text("Nei det var et uhell"))
                           )
@@ -66,7 +63,6 @@ struct PreShowView: View {
             
             
             Button("Ta Bilde") {
-                //Send bilde til server
                 self.isImagePickerDisplay = true
             }.padding()
                 .background(Color.orange)
@@ -88,12 +84,7 @@ struct InShowView: View {
     @State private var isEditing = false
     @State private var showingAlert = false
     
-    @State private var selectedImage: UIImage? {
-        didSet {
-            print("variable updated")
-            imageUploadRequest(image: selectedImage!, preorpost: false, settings: self.settings)
-        }
-    }
+    @State private var selectedImage: UIImage?
     @State private var isImagePickerDisplay = false
     
     var body: some View {
@@ -124,10 +115,6 @@ struct InShowView: View {
             .foregroundColor(.white)
             
             Button("Fjern bilde og tittel") {
-                //Send forespørsel om å fjerne bilde til server
-                //Burde be om bekreftelse først
-                //Tøm tittel state her lokalt, også kan det heller oppdatere
-                //serveren selv
                 showingAlert = true
             }.padding()
             .background(Color.orange)
@@ -152,39 +139,20 @@ struct InShowView: View {
 
 func imageUploadRequest(image: UIImage, preorpost: Bool, settings: SettingsStore) {
 
-      //let myUrl = NSURL(string: "http://192.168.1.103/upload.photo/index.php");
-    
-
     let request = NSMutableURLRequest(url: NSURL(string:  craftIP(settings: settings) + (preorpost ? "/postpicturepre" : "/postpicturein"))! as URL);
     request.httpMethod = "POST"
-
-      let boundary = "skilleveggOverAlleSkillevegger"
-
-      request.setValue("multipart/form-data; boundary=\(boundary)", forHTTPHeaderField: "Content-Type")
 
     guard let imageData = image.jpegData(compressionQuality: 1) else {
         print("oopsie")
         return;
     }
 
-    let uuid = UUID().uuidString
-    let CRLF = "\r\n"
-    let fileName = uuid + ".jpg"
-    let type = "image/jpeg"
     var body = Data()
     
-    //body.append(("--\(boundary)" + CRLF).data(using: .utf8)!)
-    //body.append("Content-Disposition: form-data; name=\"formName\"; filename=\"\(fileName)\"\r\n".data(using: .utf8)!)
-    //body.append(("Content-Type: \(type)" + CRLF + CRLF).data(using: .utf8)!)
     body.append(imageData)
-    //body.append(CRLF.data(using: .utf8)!)
-    //TODO append the pre or post show tag to know where to store the sent images
-    
-    //body.append(("--\(boundary)--" + CRLF).data(using: .utf8)!)
     
     request.httpBody = body
 
-      //myActivityIndicator.startAnimating();
     
     sendRequest(request: request)
 
@@ -198,9 +166,6 @@ func deleteImagesRequest(settings: SettingsStore) {
     request.httpMethod = "DELETE"
 
     
-    request.setValue("text/plain; charset=UTF-8", forHTTPHeaderField: "Content-Type")
-    request.httpBody = "delete_all_pictures".data(using: .utf8)!
-    
     sendRequest(request: request)
 }
 
@@ -209,10 +174,6 @@ func deletePictureAndTitle(settings: SettingsStore) {
     let request = NSMutableURLRequest(url: URL(string: craftIP(settings: settings) + "/deletepictureandtitle")!)
     
     request.httpMethod = "DELETE"
-
-    
-    request.setValue("text/plain; charset=UTF-8", forHTTPHeaderField: "Content-Type")
-    request.httpBody = "delete_all_pictures".data(using: .utf8)!
     
     sendRequest(request: request)
 }

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "31B0F381-B2CC-4C7D-8FB5-65FB31FBCFF7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8F65A20-7C4C-45CA-B6F3-DB6A0B7044A1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClickbaitControllerSwiftUI/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "InShowView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "C8F65A20-7C4C-45CA-B6F3-DB6A0B7044A1 - 1ea22116b71120cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClickbaitControllerSwiftUI.InShowView.init() -&gt; ClickbaitControllerSwiftUI.InShowView"
+                  moduleName = "ClickbaitControllerSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simon/Documents/git/ClickbaitControllerSwiftUI/ClickbaitControllerSwiftUI/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "361">
+               </Location>
+               <Location
+                  uuid = "C8F65A20-7C4C-45CA-B6F3-DB6A0B7044A1 - 3b61678406790a5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of ClickbaitControllerSwiftUI.InShowView.selectedImage : Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "ClickbaitControllerSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simon/Documents/git/ClickbaitControllerSwiftUI/ClickbaitControllerSwiftUI/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8896D45A-F6E8-466D-A724-A84191AE291F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClickbaitControllerSwiftUI/ImagePicker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
